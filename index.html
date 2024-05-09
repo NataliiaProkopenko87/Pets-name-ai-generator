@@ -17,19 +17,45 @@
             <div class="form-container">
                 <form id="pets-name-generator-form">
                     <input type="text" 
-                    placeholder="Enter your pet's species" 
+                    placeholder="Enter your Pet's species" 
                     autofocus 
                     required 
                     autocomplete="off"
                     class="instructions"
-                    id="user-instructions" />
-                    <input type="submit" class="submit-button" />
-                </form>
+                    id="user-instructions-species" />
                 <div class="hint">i.e.: Dog, Cat, Rabbit</div>
+                
+                <h2>for a more specific request...</h2>
+                    <input type="text" 
+                    placeholder="Enter your pet is he or she" 
+                    autofocus  
+                    autocomplete="off"
+                    class="instructions"
+                    id="user-instructions-sex" />
+                <div class="hint">i.e.: He, She, None</div>
+                    <input type="text" 
+                    placeholder="Enter the first letter of the name" 
+                    autofocus 
+                    autocomplete="off"
+                    class="instructions"
+                    id="user-instructions-letter" />
+                <div class="hint">i.e.: A, G, M, J</div>
+                    <input type="text" 
+                    placeholder="Enter the color of your pet's fur" 
+                    autofocus 
+                    autocomplete="off"
+                    class="instructions"
+                    id="user-instructions-color" />
+                    
+                <div class="hint">i.e.: white, brown, grey</div>
+                <input type="submit" class="submit-button" />
+                </form>
+                <div class="name hidden" id="name"></div>
     </div>
             </div>
+            </div>
         </main>
-        <footer>This AI project was created by<a href="https://github.com/NataliiaProkopenko87" target="_blank"> Nataliia Prokopenko</a> and is <a href="https://github.com/NataliiaProkopenko87/polish-poem-generator" target="_blank">open-soursed on GitHub </a> and is <a href="https://aipolishpoemgenerator.netlify.app" target="_blank">hosted on Netlify</a>.</footer>   
+        <footer>This AI project was created by<a href="https://github.com/NataliiaProkopenko87" target="_blank"> Nataliia Prokopenko</a> and is <a href="https://github.com/NataliiaProkopenko87/Pets-name-ai-generator" target="_blank">open-soursed on GitHub </a> and is <a href="https://aipetsnamegenerator.netlify.app/" target="_blank">hosted on Netlify</a>.</footer>   
     </div>
     <script src="src/index.js"></script>
 </body>
